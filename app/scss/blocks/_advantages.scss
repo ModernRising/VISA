@@ -15,19 +15,19 @@
         box-sizing: border-box;
         &:nth-child(1) {
             grid-column: 1/3;
-            background: url("../../img/advantageg-item-1.png") no-repeat center center/cover;
+            background: url("../img/advantageg-item-1.png") no-repeat center center/cover;
         }
         &:nth-child(2) {
-            background: url("../../img/advantageg-item-2.png") no-repeat center center/cover;
+            background: url("../img/advantageg-item-2.png") no-repeat center center/cover;
         }
         &:nth-child(3) {
-            background: url("../../img/advantageg-item-3.png") no-repeat center center/cover;
+            background: url("../img/advantageg-item-3.png") no-repeat center center/cover;
         }
         &:nth-child(4) {
-            background: url("../../img/advantageg-item-4.png") no-repeat center center/cover;
+            background: url("../img/advantageg-item-4.png") no-repeat center center/cover;
         }
         &:nth-child(5) {
-            background: url("../../img/advantageg-item-5.png") no-repeat center center/cover;
+            background: url("../img/advantageg-item-5.png") no-repeat center center/cover;
         }
         &-text {
             max-width: 90%;

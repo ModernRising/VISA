@@ -33,7 +33,7 @@ a {
 .banner {
   padding-top: 30px;
   min-height: 100vh;
-  background: url("../../img/main-background.png") no-repeat center center/cover;
+  background: url("../img/main-background.png") no-repeat center center/cover;
   background-attachment: fixed;
 }
 
@@ -232,23 +232,23 @@ a {
 
 .advantages__item:nth-child(1) {
   grid-column: 1/3;
-  background: url("../../img/advantageg-item-1.png") no-repeat center center/cover;
+  background: url("../img/advantageg-item-1.png") no-repeat center center/cover;
 }
 
 .advantages__item:nth-child(2) {
-  background: url("../../img/advantageg-item-2.png") no-repeat center center/cover;
+  background: url("../img/advantageg-item-2.png") no-repeat center center/cover;
 }
 
 .advantages__item:nth-child(3) {
-  background: url("../../img/advantageg-item-3.png") no-repeat center center/cover;
+  background: url("../img/advantageg-item-3.png") no-repeat center center/cover;
 }
 
 .advantages__item:nth-child(4) {
-  background: url("../../img/advantageg-item-4.png") no-repeat center center/cover;
+  background: url("../img/advantageg-item-4.png") no-repeat center center/cover;
 }
 
 .advantages__item:nth-child(5) {
-  background: url("../../img/advantageg-item-5.png") no-repeat center center/cover;
+  background: url("../img/advantageg-item-5.png") no-repeat center center/cover;
 }
 
 .advantages__item-text {
@@ -341,11 +341,11 @@ a {
       -ms-flex: 0 0 48%;
           flex: 0 0 48%;
   min-height: 700px;
-  background: url("../../img/choice-item1.png") no-repeat center center/cover;
+  background: url("../img/choice-item1.png") no-repeat center center/cover;
 }
 
 .choice__item:nth-child(2) {
-  background: url("../../img/choice-item2.png") no-repeat center center/cover;
+  background: url("../img/choice-item2.png") no-repeat center center/cover;
 }
 
 .choice__item-title {
