@@ -1,0 +1,61 @@
+.advantages {
+    padding-top: 80px;
+    &__wrapper {
+        margin-top: 37px;
+        display: grid;
+        grid-template-columns: repeat(2, 530px);
+        grid-template-rows: repeat(2, minmax(600px, auto));
+        grid-auto-rows: minmax(600px, auto);
+        gap: 40px;
+    }
+    &__item {
+        position: relative;
+        padding: 42px 0 0 40px;
+        border-radius: 12px;
+        box-sizing: border-box;
+        &:nth-child(1) {
+            grid-column: 1/3;
+            background: url("../../img/advantageg-item-1.png") no-repeat center center/cover;
+        }
+        &:nth-child(2) {
+            background: url("../../img/advantageg-item-2.png") no-repeat center center/cover;
+        }
+        &:nth-child(3) {
+            background: url("../../img/advantageg-item-3.png") no-repeat center center/cover;
+        }
+        &:nth-child(4) {
+            background: url("../../img/advantageg-item-4.png") no-repeat center center/cover;
+        }
+        &:nth-child(5) {
+            background: url("../../img/advantageg-item-5.png") no-repeat center center/cover;
+        }
+        &-text {
+            max-width: 90%;
+            font-size: 55px;
+            font-weight: 700;
+            line-height: 66px;
+            &_first {
+                max-width: 50%;
+            }
+        }
+        &-btn {
+            position: absolute;
+            bottom: 60px;
+            width: 175px;
+            height: 64px;
+            border: none;
+            outline: none;
+            background: #000000;
+            border-radius: 50px;
+            color: #fff;
+            font-weight: 700px;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: 0.6s all;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+}

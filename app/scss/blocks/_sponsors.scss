@@ -1,0 +1,21 @@
+.sponsors {
+    margin-top: 80px;
+    padding-top: 80px;
+    min-height: 492px;
+    background: #EFEFEF;
+    &__wrapper {
+        margin-top: 33px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__item {
+        flex: 0 0 33%;
+        & img {
+            display: block;
+            margin: 0 auto;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    &__logo {
+        margin-right: auto;
+    }
+    &__menu{
+        display: flex;
+        align-items: center;
+    }
+
+    &__menu-item {
+        padding-right: 35px;
+        font-weight: 400;
+        &:last-child {
+            padding-right: 0;
+        }
+    }
+ 
+}

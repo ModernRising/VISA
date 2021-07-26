@@ -1,0 +1,26 @@
+.banner {
+    padding-top: 30px;
+    min-height: 100vh;
+    background: url("../../img/main-background.png") no-repeat center center/cover;
+    background-attachment: fixed;
+     &__wrapper{
+        margin-top: 100px;
+        padding-right: 49px;
+        max-width: 380px;
+    }
+    &__descr {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    &__text {
+        margin-top: 10px;
+        display: block;
+        text-align: center;
+    }
+    &__download {
+        margin-top: 42px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

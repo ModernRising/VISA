@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transform: translateZ(0);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+@import "../scss/blocks/banner";
+@import "../scss/blocks/header";
+@import "../scss/blocks/input";
+@import "../scss/blocks/title";
+@import "../scss/blocks/awards";
+@import "../scss/blocks/advantages";
+@import "../scss/blocks/sponsors";
+@import "../scss/blocks/choice";
+@import "../scss/blocks/offer";
+@import "../scss/blocks/footer";

@@ -1,0 +1,29 @@
+.mobile-getApp {
+    display: flex;
+    .mobile-input {
+        width: 230px;
+        height: 60px;
+        padding: 18px 23px;
+        border-radius: 50px 0px 0px 50px;
+        border: none;
+        outline: none;
+    }
+    .mobile-button {
+        font-weight: 700;
+        color: #fff;
+        width: 102px;
+        height: 60px;
+        background: #000000;
+        border-radius: 0px 50px 50px 0px;
+        border: none;
+        cursor: pointer;
+    }
+    &_banner {
+        margin-top: 32px;
+    }
+    &_offer {
+        margin-top: 45px;
+        display: flex;
+        justify-content: center
+    }
+}

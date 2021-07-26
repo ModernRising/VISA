@@ -1,0 +1,25 @@
+.awards {
+    padding: 36px 80px 41px 80px;
+    width: 100%;
+    background: #EFEFEF;
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__block {
+        text-align: center;
+        font-size: 12px;
+        padding: 0 10px;
+    }
+    &__name {
+        letter-spacing: 1.93px;
+        text-transform: uppercase;
+        line-height: 18px;
+    }
+}

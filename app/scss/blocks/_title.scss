@@ -1,0 +1,24 @@
+.title {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 400;
+}
+
+.section__title {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    &.fz55 {
+        font-size: 55px;
+        letter-spacing: 0px;
+        line-height: 66px;
+    }
+    &.fz90 {
+        font-size: 90px;
+        letter-spacing: 0px;
+        line-height: 108px;
+        text-transform: none;
+    }
+}
