@@ -1,0 +1,265 @@
+@media (max-width:1200px) {
+    .container {
+        max-width: 970px;
+        padding: 0 15px;
+    }
+
+    .awards {
+        &__wrapper {
+            margin-top: -30px;
+            flex-wrap: wrap;
+        }
+        &__item {
+            margin-top: 30px;
+        }
+    }
+
+    .advantages {
+        &__wrapper {
+            grid-template-columns: repeat(2,450px);
+        }
+    }
+
+    .sponsors {
+        padding-bottom: 80px;
+        &__wrapper {
+            margin-top: 0;
+        }
+        &__item {
+            flex: 0 0 50%;
+            padding-top: 30px;
+        }
+    }
+}
+
+
+@media(max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .banner {
+        background-position: 15%;
+    }
+
+    .header {
+        justify-content: center;
+        &__logo {
+            margin-right: 0;
+        }
+        &__menu {
+            display: none;
+        }
+    }
+    .advantages {
+        &__wrapper {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2,minmax(460px,auto));
+            grid-auto-rows: minmax(460px,auto);
+        }
+        &__item {
+            &-text {
+                font-size: 40px;
+                line-height: 50px;
+            }
+        }
+    }
+
+    .choice {
+        &__wrapper {
+            margin-top: 33px;
+        }
+        .fz55 {
+            font-size: 46px;
+        }
+        &__item {
+            min-height: 520px;
+            &-title {
+                padding-top: 15px;
+                font-size: 46px;
+            }
+        }
+    }
+    .offer {
+        .fz90 {
+            font-size: 80px;
+            line-height: 90px;
+        }
+    }
+
+}
+
+@media(max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .banner {
+        background-position: 12%;
+        &__wrapper {
+            padding-right: 30px;
+        }
+        .title {
+            font-size: 54px;
+        }
+        &__descr {
+            font-size: 18px;
+        }
+        &__download {
+            justify-content: space-around;
+        }
+    }
+    .advantages {
+        &__wrapper {
+            grid-template-columns: 1fr;
+        }
+        &__item {
+            &:nth-child(1) {
+                grid-column: auto;
+            }
+            &-text {
+                font-size: 36px;
+                &_first {
+                    max-width: 90%;
+                }
+            }
+            &-btn {
+                font-size: 14px;
+            }
+        }
+    }
+    .sponsors {
+        &__wrapper {
+            flex-direction: column;
+        }
+        &__item {
+            img {
+                max-width: 70%;
+                height: auto;
+                object-fit: cover;
+            }
+        }
+    }
+    .choice {
+        .fz55 {
+            font-size: 36px;
+        }
+        &__item {
+            min-height: 420px;
+            &-title {
+                padding-top: 15px;
+                font-size: 36px;
+            }
+        }
+    }
+    .offer {
+        .fz90 {
+            font-size: 60px;
+            line-height: 76px;
+        }
+    }
+}
+
+@media(max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+    .banner {
+        min-height: 90vh;
+        &__wrapper {
+            margin-top: 60px;
+            padding-right: 0;
+        }
+        .title {
+            font-size: 46px;
+            text-align: center;
+        }
+        &__descr {
+            font-size: 16px;
+            text-align: center;
+        }
+        .mobile-getApp {
+            justify-content: center;
+            .mobile-input {
+                width: 55%;
+                font-size: 14px;
+                padding: 18px 15px;
+            }
+            .mobile-button {
+                width: 35%;
+                font-size: 14px;
+            }
+        }
+        &__download {
+            margin-top: 30px;
+            flex-direction: column;
+            a:last-child {
+                margin-top: 10px;
+            }
+        }
+    }
+    .awards {
+        &__wrapper {
+            margin-top: 0;
+        }
+        &__item {
+            margin-top: 15px;
+        }
+    }
+
+    .advantages {
+        &__wrapper {
+            grid-template-rows: repeat(2,minmax(360px,auto));
+            grid-auto-rows: minmax(360px,auto);
+        }
+        &__item {
+            &-text {
+                font-size: 30px;
+                line-height: 40px;
+            }
+        }
+    }
+
+    .choice {
+        &__wrapper {
+            flex-direction: column;
+        }
+        .section__title {
+            font-size: 18px;
+        }
+        .fz55 {
+            margin-top: 20px;
+            font-size: 28px;
+            line-height: 32px;
+        }
+        &__item {
+            flex: auto;
+            &:last-child {
+                margin-top: 20px;
+            }
+            &-title {
+                padding-top: 15px;
+                font-size: 32px;
+            }
+        }
+    }
+    .offer {
+        min-height: 400px;
+        .fz90 {
+            font-size: 35px;
+            line-height: 50px;
+        }
+        .mobile-getApp {
+            justify-content: center;
+            .mobile-input {
+                width: 55%;
+                font-size: 14px;
+                padding: 18px 15px;
+            }
+            .mobile-button {
+                width: 35%;
+                font-size: 14px;
+            }
+        }
+    }
+
+}
